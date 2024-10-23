@@ -6,7 +6,7 @@ import axios from "axios";
 import endpoint from "@/utils/endpoint";
 import "react-toastify/dist/ReactToastify.css";
 import { CircleChevronRight } from "lucide-react";
-import Loader from "@/components/Loader";
+import { ToastContainer, toast } from "react-toastify";
 
 export default function ServiceForm({
 	categories,
