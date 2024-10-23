@@ -283,6 +283,7 @@ export default function ServiceForm({
 				theme="light"
 				transition={Bounce}
 			/>
+			<ToastContainer />
 			<motion.div
 				className="w-[70%] mx-auto bg-white rounded-lg shadow-md p-6 mt-8"
 				initial={{ opacity: 0, y: 50 }}
