@@ -1,2 +1,2 @@
-const endpoint = "http://backend.taxclickin.com";
+const endpoint = "https://backend.taxclickin.com";
 export default endpoint;
