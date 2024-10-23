@@ -4,9 +4,9 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import axios from "axios";
 import endpoint from "@/utils/endpoint";
-import "react-toastify/dist/ReactToastify.css";
-import { CircleChevronRight } from "lucide-react";
 import { ToastContainer, toast } from "react-toastify";
+import { Bounce } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function ServiceForm({
 	categories,
