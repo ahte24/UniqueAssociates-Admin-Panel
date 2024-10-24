@@ -36,7 +36,7 @@ export default function AddServicePage() {
 		const savedServices = JSON.parse(localStorage.getItem("services")) || [];
 		savedServices.push(service);
 		localStorage.setItem("services", JSON.stringify(savedServices));
-		router.push("/orders"); // Redirect back to services page
+		// router.push("/orders"); // Redirect back to services page
 	};
 
 

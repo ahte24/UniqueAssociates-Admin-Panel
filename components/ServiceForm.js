@@ -11,7 +11,7 @@ import "react-toastify/dist/ReactToastify.css";
 export default function ServiceForm({
 	categories,
 	initialData,
-	addService,
+	addService, 
 	isEditMode = false,
 }) {
 	const [serviceName, setServiceName] = useState("");
