@@ -29,13 +29,11 @@ export default function Component({ params }) {
 				setOrderData(response.data);
 			} catch (error) {
 				setError(error);
-				console.log(error);
 			}
 		};
 
 		orderDetails();
 	}, []);
-	console.log(orderData);
 
 	return (
 		<div className="flex flex-col lg:flex-row gap-6 md:p-8 font-sans container mx-auto ">
@@ -252,7 +250,8 @@ export default function Component({ params }) {
 																				{doc.document_name}
 																			</td>
 																			<td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-																				.pdf
+																				{"."}
+																				{`${doc.doc_file}`.split(".")[1]}
 																			</td>
 																			<td className="px-6 py-4 whitespace-nowrap text-sm font-medium">
 																				<Link

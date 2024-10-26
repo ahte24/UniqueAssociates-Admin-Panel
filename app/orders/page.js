@@ -35,7 +35,6 @@ export default function ServicesPage() {
 				);
 
 				setOrders(sortedOrders); // Set the sorted orders
-				console.log(sortedOrders);
 			} catch (error) {
 				console.error(
 					"Error:",
