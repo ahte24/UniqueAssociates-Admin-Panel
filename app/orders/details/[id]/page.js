@@ -256,7 +256,7 @@ export default function Component({ params }) {
 																			</td>
 																			<td className="px-6 py-4 whitespace-nowrap text-sm font-medium">
 																				<Link
-																					href={`${endpoint}media/docs/ahteshamzaman026gmailcom/a655cf4f-3c5a-43d1-b4a4-1ecae06bcfd5/voter-id-ahteshamzama_PJLlxyt.pdf`}
+																					href={`${endpoint}${doc.doc_file}`}
 																					className="text-indigo-600 hover:text-indigo-900 flex items-center"
 																				>
 																					<FileIcon className="w-4 h-4 mr-2" />
