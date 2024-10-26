@@ -255,6 +255,7 @@ export default function Component({ params }) {
 																			</td>
 																			<td className="px-6 py-4 whitespace-nowrap text-sm font-medium">
 																				<Link
+																				target="_blank"
 																					href={`${endpoint}${doc.doc_file}`}
 																					className="text-indigo-600 hover:text-indigo-900 flex items-center"
 																				>
